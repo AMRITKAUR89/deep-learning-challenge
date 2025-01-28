@@ -1,5 +1,3 @@
-# deep-learning-challenge
-
 # Neural Network Model Report
 
 ## [Overview](#overview)
@@ -58,17 +56,5 @@ The purpose of this analysis was to build and evaluate a deep learning model for
 - **Explanation:**  
   Random Forests generally require less tuning and can perform well on datasets with many features. They do not need to be trained as extensively as neural networks, and the interpretability (through feature importance) is beneficial for understanding which features influence the prediction.
 
-## Visual Support
 
-Below is a plot showing the training and validation accuracy over the epochs:
-
-```python
-import matplotlib.pyplot as plt
-# Plot accuracy over epochs
-plt.plot(history.history['accuracy'], label='Training Accuracy')
-plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
-plt.xlabel('Epochs')
-plt.ylabel('Accuracy')
-plt.legend()
-plt.show()
 
